@@ -1,0 +1,939 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16633,
+          "bbox": [
+            22,
+            19,
+            175,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16692,
+          "bbox": [
+            24,
+            19,
+            177,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17152,
+          "bbox": [
+            22,
+            19,
+            171,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16483,
+          "bbox": [
+            22,
+            19,
+            175,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16522,
+          "bbox": [
+            22,
+            19,
+            171,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16541,
+          "bbox": [
+            24,
+            19,
+            177,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7643,
+          "bbox": [
+            28,
+            70,
+            129,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8586,
+          "bbox": [
+            27,
+            72,
+            176,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7392,
+          "bbox": [
+            26,
+            70,
+            130,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8893,
+          "bbox": [
+            24,
+            70,
+            185,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7588,
+          "bbox": [
+            26,
+            70,
+            131,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8982,
+          "bbox": [
+            24,
+            71,
+            183,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7754,
+          "bbox": [
+            27,
+            70,
+            130,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8585,
+          "bbox": [
+            26,
+            72,
+            180,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12220,
+          "bbox": [
+            7,
+            63,
+            177,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10366,
+          "bbox": [
+            31,
+            71,
+            177,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12432,
+          "bbox": [
+            19,
+            63,
+            182,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9545,
+          "bbox": [
+            41,
+            74,
+            173,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11908,
+          "bbox": [
+            17,
+            67,
+            177,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9848,
+          "bbox": [
+            40,
+            71,
+            174,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12262,
+          "bbox": [
+            15,
+            63,
+            178,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9616,
+          "bbox": [
+            41,
+            72,
+            172,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17008,
+          "bbox": [
+            12,
+            27,
+            182,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17139,
+          "bbox": [
+            14,
+            9,
+            172,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16178,
+          "bbox": [
+            17,
+            27,
+            176,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17008,
+          "bbox": [
+            12,
+            27,
+            182,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18297,
+          "bbox": [
+            17,
+            18,
+            180,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18463,
+          "bbox": [
+            18,
+            18,
+            176,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18595,
+          "bbox": [
+            17,
+            18,
+            173,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18298,
+          "bbox": [
+            18,
+            18,
+            182,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18362,
+          "bbox": [
+            18,
+            18,
+            180,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17202,
+          "bbox": [
+            18,
+            17,
+            183,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16088,
+          "bbox": [
+            25,
+            19,
+            174,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14302,
+          "bbox": [
+            18,
+            49,
+            170,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12833,
+          "bbox": [
+            26,
+            60,
+            169,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9531,
+          "bbox": [
+            25,
+            91,
+            168,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14902,
+          "bbox": [
+            22,
+            37,
+            178,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15018,
+          "bbox": [
+            27,
+            36,
+            170,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17143,
+          "bbox": [
+            20,
+            17,
+            176,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12918,
+          "bbox": [
+            28,
+            44,
+            163,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12631,
+          "bbox": [
+            34,
+            23,
+            158,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13308,
+          "bbox": [
+            28,
+            16,
+            163,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13543,
+          "bbox": [
+            28,
+            35,
+            165,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13820,
+          "bbox": [
+            28,
+            37,
+            165,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12609,
+          "bbox": [
+            30,
+            44,
+            165,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14820,
+          "bbox": [
+            26,
+            28,
+            170,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13786,
+          "bbox": [
+            26,
+            29,
+            167,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15318,
+          "bbox": [
+            16,
+            27,
+            185,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14089,
+          "bbox": [
+            26,
+            32,
+            166,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15671,
+          "bbox": [
+            19,
+            28,
+            182,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14500,
+          "bbox": [
+            26,
+            32,
+            166,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17004,
+          "bbox": [
+            21,
+            20,
+            173,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15673,
+          "bbox": [
+            22,
+            32,
+            174,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15742,
+          "bbox": [
+            22,
+            39,
+            175,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\frames\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15809,
+          "bbox": [
+            21,
+            23,
+            170,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+  

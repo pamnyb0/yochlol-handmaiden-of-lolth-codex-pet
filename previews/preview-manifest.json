@@ -1,0 +1,14 @@
+{
+  "source_atlas": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\outputs\\yochlol-monster\\source-and-qa\\final\\spritesheet-extended.png",
+  "video_fps": 20,
+  "video_frames": 172,
+  "standard_states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "r

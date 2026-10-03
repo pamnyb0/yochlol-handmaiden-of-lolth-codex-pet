@@ -1,0 +1,77 @@
+{
+  "ok": false,
+  "atlas": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\hover-repair\\final\\yochlol-v2-repaired.png",
+  "encoded_bytes": 3215461,
+  "sha256": "ea780267afb20ac4e79f9e77c94a97c07914cc7c87b71e94b5c13dd4ab4d3aff",
+  "jump": {
+    "idle_baseline": 191,
+    "jump_baselines": [
+      190,
+      190,
+      190,
+      190,
+      190
+    ],
+    "airborne_lift_pixels": 0,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 98.5,
+    "look_centers_x": [
+      96.5,
+      96.5,
+      96.5,
+      95.5,
+      96.5,
+      95.5,
+      96.5,
+      96.0,
+      95.5,
+      96.5,
+      95.5,
+      95.5,
+      95.5,
+      95.5,
+      95.5,
+      95.5
+    ],
+    "look_widths": [
+      131,
+      131,
+      131,
+      129,
+      129,
+      129,
+      131,
+      132,
+      129,
+      131,
+      129,
+      131,
+      129,
+      129,
+      129,
+      129
+    ],
+    "maximum_center_drift_pixels": 3.0,
+    "maximum_width_ratio": 1.0232558139534884
+  },
+  "errors": [
+    "jumping never visibly leaves the ground: peak lift is 0px, expected at least 8px",
+    "look directions contain transparent interior holes or seam bands: 000, 022.5, 045, 270, 292.5, 315, 337.5"
+  ],
+  "warnings": [
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "000 has transparent interior hole rows (y=84, y=85, y=86, y=87, +3 more)",
+    "022.5 has transparent interior hole rows (y=84, y=85, y=86, y=87, +2 more)",
+    "045 has transparent interior hole rows (y=83, y=84, y=85, y=86, +3 more)",
+    "067.5 has transparent interior hole rows (y=81, y=82, y=83, y=84, +5 more)",
+    "090 has transparent interior hole rows (y=77, y=78, y=79, y=80, +2 more)",
+    "112.5 has transparent interior hole rows (y=90)",
+    "180 has transparent interior hole rows (y=84, y=85, y=86)",
+    "202.5 has transparent interior hole rows (y=89, y=90)",
+    "270 has transparent interior hole rows (y=90, y=91, y=92)",
+    "292.5 has transparent interior hole rows (y=85, y=86, y=87, y=88, +2 more)",
+    "315 has transparent interior hole rows (y=84, y=85, y=86, y=87, +2 more)",
+    "337.5 

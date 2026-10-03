@@ -1,0 +1,67 @@
+{
+  "ok": false,
+  "atlas": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\outputs\\yochlol-monster\\spritesheet.png",
+  "encoded_bytes": 3127694,
+  "sha256": "6abc28e34a294730a80b7f3a309bcd66900f82a3eafb5cea4aa1719431c9b86d",
+  "jump": {
+    "idle_baseline": 191,
+    "jump_baselines": [
+      193,
+      193,
+      193,
+      193,
+      193
+    ],
+    "airborne_lift_pixels": 0,
+    "landing_delta_pixels": 2
+  },
+  "look_registration": {
+    "neutral_center_x": 98.5,
+    "look_centers_x": [
+      96.5,
+      96.5,
+      96.5,
+      95.5,
+      96.5,
+      95.5,
+      96.5,
+      96.0,
+      95.5,
+      96.5,
+      95.5,
+      95.5,
+      95.5,
+      95.5,
+      95.5,
+      95.5
+    ],
+    "look_widths": [
+      131,
+      131,
+      131,
+      129,
+      129,
+      129,
+      131,
+      132,
+      129,
+      131,
+      129,
+      131,
+      129,
+      129,
+      129,
+      129
+    ],
+    "maximum_center_drift_pixels": 3.0,
+    "maximum_width_ratio": 1.0232558139534884
+  },
+  "errors": [
+    "jumping never visibly leaves the ground: peak lift is 0px, expected at least 8px"
+  ],
+  "warnings": [
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "000 has transparent interior hole rows (y=107)",
+    "022.5 has transparent interior hole rows (y=107)",
+    "045 has transparent interior hole rows (y=10

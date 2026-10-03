@@ -1,0 +1,22 @@
+{
+  "reviewer": "primary visual review at native cell size, supported by three isolated blind axis reviews",
+  "directions": [
+    {"label":"000","expected":"up","observed":"up","verdict":"pass","evidence":"Eye-bearing upper flesh is erect above the maw, with small scarlet eye high on the raised tip and upward face angle; pooled base remains anchored."},
+    {"label":"022.5","expected":"up-right","observed":"up-right","verdict":"pass","evidence":"Raised eye-bearing neck inclines slightly toward screen-right while remaining nearly vertical; eye tip sits right of mouth center and above it."},
+    {"label":"045","expected":"up-right","observed":"up-right","verdict":"pass","evidence":"Neck and eye tip project diagonally above and to the right of the centered maw, with original flesh folds and eye socket retained."},
+    {"label":"067.5","expected":"up-right","observed":"up-right","verdict":"pass","evidence":"Upper head extends strongly screen-right with a shallow upward slope; scarlet eye lies at the elevated right end, not in a replacement socket."},
+    {"label":"090","expected":"right","observed":"right","verdict":"pass","evidence":"Eye-bearing upper neck bends horizontally toward screen-right, ending above the right tentacle; lower torso and huge mouth stay frontal."},
+    {"label":"112.5","expected":"down-right","observed":"down-right","verdict":"pass","evidence":"Eye-bearing neck turns right and slopes down from the upper bend; eye tip is lower than bend and right of centered torso."},
+    {"label":"135","expected":"down-right","observed":"down-right","verdict":"pass","evidence":"Neck angles visibly diagonally downward toward the right, placing red eye below the head bend and to right of maw center."},
+    {"label":"157.5","expected":"down-right","observed":"down-right","verdict":"warning","evidence":"Eye-bearing neck hangs down on the right of the torso; its lower tip remains right of maw center. Horizontal extent is stronger than an ideal near-down step, but the complete loop remains in the right quadrant without reversal, body drift or scale change."},
+    {"label":"180","expected":"down","observed":"down","verdict":"pass","evidence":"Upper neck folds vertically down in front of the open maw, with scarlet eye at its bottom-facing end; paired ivory tooth rows remain visible around it."},
+    {"label":"202.5","expected":"down-left","observed":"down with a subtle screen-left incline","verdict":"warning","evidence":"Neck hangs downward over maw with eye-bearing end slightly left of the mouth's centerline and left of its root. Blind reviewers found horizontal cue ambiguous; labeled loop shows a small left bend followed by stronger down-left, with no wrong quadrant or reversal."},
+    {"label":"225","expected":"down-left","observed":"down-left","verdict":"pass","evidence":"Upper neck angles diagonally down toward screen-left; eye and pointed fleshy tip extend left of open maw and below upper neck root."},
+    {"label":"247.5","expected":"down-left","observed":"down-left","verdict":"pass","evidence":"Long eye-bearing upper flesh projects screen-left with shallow downward slope, placing eye at the lowered left end."},
+    {"label":"270","expected":"left","observed":"left","verdict":"pass","evidence":"Upper neck extends nearly horizontally to screen-left, eye at its leftmost end; centered mouth, asymmetric tentacles and pooled base retain orientation."},
+    {"label":"292.5","expected":"up-left","observed":"up-left","verdict":"pass","evidence":"Neck rises toward screen-left with shallow upward angle; eye tip is higher and farther left than the rooted upper torso."},
+    {"label":"315","expected":"up-left","observed":"up-left","verdict":"pass","evidence":"Upper neck and eye-bearing tip rise diagonally to screen-left, while frontal mouth and planted base stay fixed."},
+    {"label":"337.5","expected":"up-left","observed":"up-left","verdict":"pass","evidence":"Upper eye-bearing neck stands nearly vertical with a slight leftward bend, closing smoothly toward erect up pose; eye tip is left and above torso center."}
+  ],
+  "continuity_review": "The open gaps between tentacles and torso account for the isolated alpha-hole row warnings at 000, 022.5, 045 and 292.5. No adjacent seam rows, missing flesh, disconnected eyes or accidental mouth transparency are visible. Neck shape changes at the down boundary are larger than near the up boundary, but base, mouth, scale and overall identity stay stable at normal pet size."
+}

@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A eye and neck tip lean upper-left of mouth; B eye and tip lean upper-right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A neck bends left with eye at leftward tip; B bends right with eye at rightward tip."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A terminal neck lies nearly horizontal to left; B terminal neck lies nearly horizontal to right."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A red eye is at rightmost neck tip above right curl; B eye is at leftmost neck tip above left curl."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A neck bends down-right with eye on right terminal end; B neck bends down-left with eye on left terminal end."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A eye-bearing tip droops to lower-left of mouth; B eye-bearing tip droops lower-right."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "screen-right",
+      "reason": "A neck hangs down over central mouth and eye is near body center, giving no clear horizontal aim; B neck tip and eye extend down-right."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A eye is at raised upright neck tip; B eye is at downward neck tip overlapping mouth."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A eye-bearing neck points up-right; B bends down-right with eye below upper bend."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A neck terminal section angles downward to right and eye is lower than bend; B neck rises up-right to eye."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A final eye-bearing neck slopes down-right from its crown; B final eye-bearing neck slopes slightly up-right from bend."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A eye-bearing neck hangs down centrally into mouth; B stands tall with eye at up-left tip."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A eye-bearing tip rises upper-left; B tip bends lower-left below neck crown."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A eye is at drooping lower-left tip; B eye is at slightly rising upper-left tip."
+    }
+  ]
+}

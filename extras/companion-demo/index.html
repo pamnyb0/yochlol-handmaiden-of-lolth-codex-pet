@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#151610">
+  <title>Yochlol | A handmaiden in residence</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="dialogue.js"></script>
+  <script defer src="engine.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="wordmark" href="index.html" aria-label="Yochlol home"><span class="sigil" aria-hidden="true">✧</span> YOCHLOL <span class="edition">IN RESIDENCE</span></a>
+    <div class="header-actions"><button id="compact" class="text-button">Companion view</button><button id="settings-open" class="icon-button" aria-label="Open settings">⚙</button></div>
+  </header>
+  <main class="layout">
+    <section class="chamber" aria-label="Yochlol's chamber">
+      <div class="chamber-heading"><div><p class="eyebrow">A HANDMAIDEN OF LOLTH</p><h1>She has made herself<br>quite comfortable.</h1></div><div class="live-status"><span class="status-dot"></span><span id="mood" aria-live="polite">At ease</span></div></div>
+      <div id="stage" class="stage">
+        <div class="stage-lines" aria-hidden="true"></div>
+        <p id="loading" class="loading">Opening the chamber…</p>
+        <div id="creature-position" class="creature-position">
+          <button id="creature" class="creature" aria-label="Touch Yochlol; drag to move her" title="Touch her, or drag to move her">
+            <canvas id="pet-canvas" width="384" height="416" aria-hidden="true"></canvas>
+          </button>
+        </div>
+        <span class="stage-inscription" aria-hidden="true">THE ABYSS CAN WAIT.</span>
+        <button id="return-workspace" class="text-button return-workspace" hidden>Return to the chamber</button>
+      </div>
+      <div class="speech-wrap"><div id="speech" class="speech" aria-live="polite" aria-atomic="true"><span class="speech-label">YOCHLOL</span><p id="speech-text">You have made room for me. I shall be interested to see what you do next.</p></div><button id="silence" class="text-button" aria-label="Dismiss her remark">Let the silence return <span aria-hidden="true">↗</span></button></div>
+      <div class="chamber-footer"><span>Touch her, or move her somewhere she may object to.</span><span class="small-mark">I / IX</span></div>
+    </section>
+    <aside class="conversation">
+      <div class="aside-heading"><p class="eyebrow">HER ATTENTION, FOR THE MOMENT</p><h2>Give her something<br>to consider.</h2><p>She remembers persistence, questions certainty, and occasionally finds a reason to help.</p></div>
+      <section class="work-section"><h3>How is the work going?</h3><div class="work-actions"><button data-event="work" class="action primary">I’m working on it <span>↗</span></button><button data-event="failure" class="action">The attempt failed <span>↗</span></button><button data-event="changed-failure" class="action">I changed the approach <span>↗</span></button><button data-event="success" class="action">I understand why it worked <span>↗</span></button><button data-event="accidental-success" class="action">It worked; I’m not sure why <span>↗</span></button></div></section>
+      <form id="conversation-form" class="ask-form"><label for="message">Or address her directly</label><div class="input-wrap"><input id="message" autocomplete="off" maxlength="400" placeholder="What does Lolth want?"><button type="submit" aria-label="Speak to Yochlol">↗</button></div><p class="input-note">Her replies come from a written repertoire; she responds to the subject you raise.</p></form>
+      <div class="topics" aria-label="Conversation subjects"><button data-event="question">Ask for advice</button><button data-event="certainty">I’m quite certain</button><button data-event="compliment">An unusual beauty</button><button data-event="lolth">Ask about Lolth</button></div>
+      <details class="rehearsal"><summary>Try a scene <span>+</span></summary><p>These short rehearsals let you examine a reaction without waiting for the circumstances.</p><div class="scene-actions"><button data-scene="clicks">An unwelcome ritual</button><button data-scene="failure">Failure, revision, success</button><button data-scene="return">Return after three hours</button><button data-scene="late">A late hour</button><button data-scene="fatigue">A long work session</button><button data-scene="correction">A corrected assumption</button></div><button id="scene-end" class="text-button" hidden>End rehearsal</button></details>
+      <details class="history"><summary>What she has said <span>+</span></summary><ol id="history-list" aria-live="off"></ol></details>
+      <p class="scope-note">She can observe this chamber and your interactions here. Tell her how work elsewhere is going.</p>
+    </aside>
+  </main>
+  <footer class="page-footer"><span>A private companion, kept on this machine.</span><span id="scene-status">In your company</span></footer>
+  <dialog id="settings"><form method="dialog"><div class="dialog-heading"><div><p class="eyebrow">HER RESIDENCE</p><h2>A few arrangements.</h2></div><button class="icon-button" aria-label="Close settings">×</button></div><label class="setting"><span>Quiet company<small>She speaks when addressed; she keeps her idle observations to herself.</small></span><input id="quiet" type="checkbox"></label><label class="setting"><span>Remember our acquaintance<small>Keep her familiarity and recent remarks in this browser, between visits.</small></span><input id="remember" type="checkbox" checked></label><label class="setting"><span>Stillness<small>Use a resting pose, with motion only when you ask for it.</small></span><input id="reduced" type="checkbox"></label><button type="button" id="forget" class="action">Begin a new acquaintance</button><p class="dialog-note" id="storage-note">No messages leave this machine. Written messages are used once to choose a reply and are never saved.</p><button class="action primary">Keep these arrangements</button></form></dialog>
+</body>
+</html>

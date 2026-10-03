@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "atlas": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\final\\spritesheet-extended.png",
+  "encoded_bytes": 2063396,
+  "sha256": "cf6a521fb3e5f5002dd69e935d782d5b92bd97dbf9d6893f58532bdccd2fd640",
+  "jump": {
+    "idle_baseline": 183,
+    "jump_baselines": [
+      183,
+      169,
+      141,
+      172,
+      183
+    ],
+    "airborne_lift_pixels": 42,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 98.0,
+    "look_centers_x": [
+      96.0,
+      96.0,
+      96.0,
+      95.5,
+      96.5,
+      95.5,
+      96.0,
+      95.5,
+      95.5,
+      96.0,
+      95.5,
+      95.0,
+      95.5,
+      95.5,
+      95.5,
+      95.5
+    ],
+    "look_widths": [
+      92,
+      92,
+      92,
+      91,
+      91,
+      91,
+      92,
+      93,
+      91,
+      92,
+      91,
+      92,
+      91,
+      91,
+      91,
+      91
+    ],
+    "maximum_center_drift_pixels": 3.0,
+    "maximum_width_ratio": 1.021978021978022
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "000 has transparent interior hole rows (y=107)",
+    "022.5 has transparent interior hole rows (y=107)",
+    "045 has transparent interior hole rows (y=107)

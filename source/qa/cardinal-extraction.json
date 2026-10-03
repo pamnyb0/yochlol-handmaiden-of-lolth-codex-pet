@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "strip": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\decoded\\look-cardinals.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        543,
+        724
+      ],
+      "used_pixels": 144848,
+      "edge_pixels": 0,
+      "output": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\decoded\\look-anchors\\000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        543,
+        0,
+        1086,
+        724
+      ],
+      "used_pixels": 146297,
+      "edge_pixels": 0,
+      "output": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\decoded\\look-anchors\\090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        1086,
+        0,
+        1629,
+        724
+      ],
+      "used_pixels": 145087,
+      "edge_pixels": 0,
+      "output": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\decoded\\look-anchors\\180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1629,
+        0,
+        2172,
+        724
+      ],
+      "used_pixels": 148238,
+      "edge_pixels": 0,
+      "output": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yoch

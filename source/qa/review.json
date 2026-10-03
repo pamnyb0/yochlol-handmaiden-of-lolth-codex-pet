@@ -1,0 +1,940 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8047,
+          "bbox": [
+            44,
+            62,
+            152,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 43
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8086,
+          "bbox": [
+            45,
+            62,
+            153,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 49
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8303,
+          "bbox": [
+            44,
+            62,
+            149,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 45
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7983,
+          "bbox": [
+            44,
+            62,
+            152,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 32
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8018,
+          "bbox": [
+            44,
+            62,
+            149,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 37
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7994,
+          "bbox": [
+            45,
+            62,
+            153,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 44
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7811,
+          "bbox": [
+            27,
+            60,
+            130,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 76
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8727,
+          "bbox": [
+            26,
+            62,
+            178,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 105
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7535,
+          "bbox": [
+            25,
+            60,
+            131,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 58
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9072,
+          "bbox": [
+            23,
+            60,
+            187,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 109
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7737,
+          "bbox": [
+            25,
+            60,
+            132,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 65
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9128,
+          "bbox": [
+            23,
+            61,
+            185,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 86
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7918,
+          "bbox": [
+            26,
+            60,
+            131,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 77
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8728,
+          "bbox": [
+            25,
+            62,
+            182,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 90
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11012,
+          "bbox": [
+            11,
+            60,
+            174,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 153
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9319,
+          "bbox": [
+            34,
+            68,
+            174,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11248,
+          "bbox": [
+            23,
+            60,
+            180,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 154
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8574,
+          "bbox": [
+            44,
+            71,
+            171,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 83
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10741,
+          "bbox": [
+            21,
+            64,
+            175,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 146
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8874,
+          "bbox": [
+            43,
+            68,
+            172,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 128
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11071,
+          "bbox": [
+            19,
+            60,
+            176,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 146
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8673,
+          "bbox": [
+            44,
+            69,
+            170,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 115
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8977,
+          "bbox": [
+            34,
+            62,
+            159,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9024,
+          "bbox": [
+            36,
+            49,
+            152,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 8
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8865,
+          "bbox": [
+            36,
+            62,
+            176,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 12
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8544,
+          "bbox": [
+            38,
+            62,
+            155,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 5
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8206,
+          "bbox": [
+            37,
+            72,
+            162,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 23
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8956,
+          "bbox": [
+            36,
+            47,
+            162,
+            170
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 35
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8931,
+          "bbox": [
+            35,
+            20,
+            161,
+            143
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 35
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8905,
+          "bbox": [
+            36,
+            50,
+            162,
+            174
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8281,
+          "bbox": [
+            37,
+            71,
+            163,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8291,
+          "bbox": [
+            41,
+            61,
+            157,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 84
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7791,
+          "bbox": [
+            46,
+            62,
+            151,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 75
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6964,
+          "bbox": [
+            41,
+            83,
+            148,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 63
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6269,
+          "bbox": [
+            47,
+            91,
+            148,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 51
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4632,
+          "bbox": [
+            46,
+            113,
+            147,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7188,
+          "bbox": [
+            44,
+            75,
+            154,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 70
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7286,
+          "bbox": [
+            47,
+            74,
+            148,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 70
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8292,
+          "bbox": [
+            42,
+            61,
+            152,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 79
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8569,
+          "bbox": [
+            40,
+            62,
+            151,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 19
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8349,
+          "bbox": [
+            45,
+            45,
+            147,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 25
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8801,
+          "bbox": [
+            40,
+            39,
+            151,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 30
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8995,
+          "bbox": [
+            40,
+            55,
+            153,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 17
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9214,
+          "bbox": [
+            40,
+            56,
+            153,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8373,
+          "bbox": [
+            42,
+            62,
+            153,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 19
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8007,
+          "bbox": [
+            44,
+            62,
+            151,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7445,
+          "bbox": [
+            44,
+            63,
+            149,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 32
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8288,
+          "bbox": [
+            36,
+            62,
+            162,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 27
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7621,
+          "bbox": [
+            44,
+            65,
+            148,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8441,
+          "bbox": [
+            39,
+            62,
+            160,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 25
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7829,
+          "bbox": [
+            44,
+            65,
+            148,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 20
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8180,
+          "bbox": [
+            43,
+            63,
+            150,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 40
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7605,
+          "bbox": [
+            44,
+            71,
+            151,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 32
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7622,
+          "bbox": [
+            44,
+            76,
+            152,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7618,
+          "bbox": [
+            43,
+            65,
+            148,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 23
+        },
+    
