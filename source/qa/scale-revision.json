@@ -948,3 +948,74 @@
         [
           30,
           61,
+          161,
+          192
+        ],
+        [
+          31,
+          61,
+          160,
+          192
+        ],
+        [
+          31,
+          51,
+          160,
+          192
+        ],
+        [
+          31,
+          41,
+          160,
+          192
+        ],
+        [
+          31,
+          30,
+          160,
+          192
+        ]
+      ]
+    }
+  ],
+  "rooted_hover_reaction": {
+    "source_row": 3,
+    "target_row": 4,
+    "sequence": "rest-rise-rear-return-rest",
+    "shared_scale": 1.36,
+    "ground_baseline": 193,
+    "frame_bounds": [
+      [
+        12,
+        27,
+        182,
+        193
+      ],
+      [
+        14,
+        9,
+        172,
+        193
+      ],
+      [
+        17,
+        27,
+        176,
+        193
+      ],
+      [
+        14,
+        9,
+        172,
+        193
+      ],
+      [
+        12,
+        27,
+        182,
+        193
+      ]
+    ],
+    "whole_body_vertical_translation": false
+  }
+}

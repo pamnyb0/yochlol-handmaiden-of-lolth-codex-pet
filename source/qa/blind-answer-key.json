@@ -177,4 +177,13 @@
       "axis": "vertical",
       "gate": "review",
       "A": {
-        "
+        "expected_direction": "down",
+        "source_direction": "247.5"
+      },
+      "B": {
+        "expected_direction": "up",
+        "source_direction": "292.5"
+      }
+    }
+  ]
+}

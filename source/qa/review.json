@@ -937,4 +937,37 @@
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 23
         },
-    
+        {
+          "index": 4,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7806,
+          "bbox": [
+            40,
+            71,
+            149,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 29
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\pamig\\Documents\\Codex\\2026-10-03\\pets-plugin-work-pets-openai-curated\\work\\yochlol-monster\\frames-registered\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8188,
+          "bbox": [
+            43,
+            63,
+            152,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 34
+        }
+      ]
+    }
+  ]
+}

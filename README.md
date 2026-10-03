@@ -46,3 +46,4 @@ The installed package contains a transparent 1536 × 1872 WebP atlas with the ni
 ## Fan-work notice
 
 Unofficial, non-commercial fan work. Yochlol, Lolth, Menzoberranzan, Forgotten Realms, Codex and any depicted miniature designs belong to their respective rights holders. This project is not affiliated with or endorsed by Wizards of the Coast or OpenAI. No separate license is granted for the artwork or code.
+

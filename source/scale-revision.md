@@ -4,4 +4,6 @@ The first uploaded sheet had been registered with a 120-pixel target body height
 
 The hover row now moves one existing outer pseudopod through a small lift and return. The body, base, scale, and all other tentacles remain fixed, so each frame keeps the same limb count and silhouette. This preserves the requested grounded hover reaction. The generic jumping-state quality check therefore continues to report zero body lift.
 
-Final sprite sheet SHA-256: ea780267afb20ac4e79f9e77c94a97c07914cc7c87b71e94b5c13dd4ab4d3
+Final sprite sheet SHA-256: ea780267afb20ac4e79f9e77c94a97c07914cc7c87b71e94b5c13dd4ab4d3aff
+
+

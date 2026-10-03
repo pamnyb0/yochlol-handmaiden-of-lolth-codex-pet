@@ -234,4 +234,16 @@
       "gate": "review",
       "A": {
         "observed": "down",
-  
+        "expected": "down",
+        "source_direction": "247.5",
+        "pass": true
+      },
+      "B": {
+        "observed": "up",
+        "expected": "up",
+        "source_direction": "292.5",
+        "pass": true
+      }
+    }
+  ]
+}

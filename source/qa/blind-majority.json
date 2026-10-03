@@ -186,4 +186,15 @@
       "pair": "vertical-7",
       "A": "down",
       "B": "up",
-  
+      "reason": "strict majority of independent blind reviews",
+      "votes": {
+        "A": {
+          "down": 3
+        },
+        "B": {
+          "up": 3
+        }
+      }
+    }
+  ]
+}

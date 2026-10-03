@@ -506,4 +506,27 @@
       "to": "315",
       "firstPixels": 11754,
       "secondPixels": 11594,
-      "diff
+      "diffPixels": 2443,
+      "centerDelta": 5.0,
+      "areaRatio": 1.0138002415042264
+    },
+    {
+      "from": "315",
+      "to": "337.5",
+      "firstPixels": 11594,
+      "secondPixels": 11768,
+      "diffPixels": 2502,
+      "centerDelta": 5.5,
+      "areaRatio": 1.015007762635846
+    },
+    {
+      "from": "337.5",
+      "to": "000",
+      "firstPixels": 11768,
+      "secondPixels": 12065,
+      "diffPixels": 3052,
+      "centerDelta": 4.123105625617661,
+      "areaRatio": 1.0252379333786539
+    }
+  ]
+}
