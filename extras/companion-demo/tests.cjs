@@ -73,6 +73,21 @@ test('Asking about Lolth has a topic cooldown', () => {
   assert.equal(pet.event('lolth').line,null);
   advance(61000);assert.equal(pet.event('lolth').line.pool,'lolth');
 });
+test('New lore topics select their dedicated dialogue pools', () => {
+  const {pet}=fixture();
+  for(const topic of ['matron','priestess','menzoberranzan','form','abyss','fear','summoning','drow']) {
+    const result=pet.event(topic);
+    assert.equal(result.line.pool,topic);
+    assert.equal(result.animation,topic==='form'?'waving':'review');
+  }
+});
+test('Authored telepathic delivery survives dialogue selection', () => {
+  const line=Object.values(data.pools).flat().find(item=>item.delivery==='telepathic');
+  assert.ok(line);
+  const dialogue={...data,pools:{...data.pools,telepathic:[line]}};
+  const pet=new Companion(dialogue,{random:()=>0});
+  assert.equal(pet.choose('telepathic').delivery,'telepathic');
+});
 test('Quiet company keeps ambient remarks silent', () => {
   const {pet,advance}=fixture();pet.state.ambientEnabled=false;
   advance(3*3600000);
@@ -99,7 +114,12 @@ test('All authored lines use unique IDs and avoid banned prose patterns', () => 
   assert.equal(new Set(lines.map(x=>x.id)).size,lines.length);
   for(const line of lines){
     assert.ok(!line.text.includes('—'),line.id);
-    assert.ok(!/\b(delve|robust|holistic|transformative|empowering|seamless|leverage|tapestry)\b/i.test(line.text),line.id);
+    assert.ok(
+      !/\b(additionally|align with|boasts|bolstered|crucial|delve|emphasizing|enduring|enhance|essential|fostering|garner|highlight|interplay|intricate|key|landscape|meticulous|perfectly|pivotal|showcase|significant|tapestry|testament|underscore|valuable|vibrant|robust|holistic|transformative|empowering|seamless|leverage|cacophony|predatory)\b/i.test(line.text),
+      line.id
+    );
+    assert.ok(!/\bnot (?:just|only)\b/i.test(line.text), line.id);
+    assert.ok(!/\bnot\b[^.!?;]{0,80}\bbut\b/i.test(line.text), line.id);
     assert.ok(line.text.length<220,line.id);
   }
 });

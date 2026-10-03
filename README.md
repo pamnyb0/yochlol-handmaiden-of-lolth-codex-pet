@@ -14,6 +14,8 @@ In the resource audit I gathered, YOCHOL appears in NPCS.DAT as graphics record 
 
 The photograph here shows my 2015 Roper miniature, numbered 28/55. I used its sculptural detail and tactile surface as one part of the design, fused with the older game’s grotesque Yochlol shape. The resulting pet is my own interpretation of those sources.
 
+![My 2015 Roper miniature, numbered 28/55, which I used as a sculptural reference for the Yochlol](source/reference/miniature-reference.png)
+
 ## How her animation reads
 
 Her idle loop keeps the pooled base in one place while individual pseudopods flex. The current Hatch Pet prompt maps hover to the jumping row. Yochlol keeps her base, scale, and resting tentacles fixed while one existing outer pseudopod lifts and settles; the body stays planted, and the animation does not add another limb. The waving row gives one pseudopod a slower, restrained greeting. During work and review she remains intent and planted; waiting extends a limb toward the viewer, failure tightens her mouth and limbs, and drag movement pulls her mass laterally. [The state prompt is in OpenAI's public skill source](https://github.com/openai/skills/blob/main/skills/.curated/hatch-pet/scripts/prepare_pet_run.py).

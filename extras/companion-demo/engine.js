@@ -74,7 +74,7 @@
       s.recent = s.recent.slice(-18);
       s.lastSpeechAt = at;
       if (selected.rarity === 'rare') s.lastRareAt = at;
-      return { ...selected, pool, delivery: options.telepathic ? 'telepathic' : selected.rarity === 'rare' ? 'low' : 'spoken' };
+      return { ...selected, pool, delivery: selected.delivery || (options.telepathic ? 'telepathic' : selected.rarity === 'rare' ? 'low' : 'spoken') };
     }
     event(type, payload = {}) {
       this.tick();
@@ -127,6 +127,14 @@
         case 'lolth':
           if (at - s.lastTopicAt >= 60000) { pool = 'lolth'; s.lastTopicAt = at; }
           this.transient('amused'); animation = 'review'; break;
+        case 'matron': pool = 'matron'; this.transient('amused', 55); animation = 'review'; break;
+        case 'priestess': pool = 'priestess'; this.transient('observant', 55); animation = 'review'; break;
+        case 'menzoberranzan': pool = 'menzoberranzan'; this.transient('observant', 65); animation = 'review'; break;
+        case 'form': pool = 'form'; this.transient('curious', 55); animation = 'waving'; break;
+        case 'abyss': pool = 'abyss'; this.transient('observant', 55); animation = 'review'; break;
+        case 'fear': pool = 'fear'; this.transient('curious', 55); animation = 'review'; break;
+        case 'summoning': pool = 'summoning'; this.transient('amused', 55); animation = 'review'; break;
+        case 'drow': pool = 'drow'; this.transient('observant', 55); animation = 'review'; break;
         case 'certainty': pool = 'certainty'; this.transient('amused'); animation = 'review'; break;
         case 'correction': pool = 'correction'; this.transient('pleased'); animation = 'review'; break;
         case 'question': pool = 'curious'; this.transient('curious'); animation = 'waiting'; break;

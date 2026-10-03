@@ -194,9 +194,17 @@
     const text=$('message').value.trim().toLowerCase();
     if(!text)return;
     let type = 'question';
-    if(/\b(lolth|spider queen|priestess|matron)\b/.test(text))type='lolth';
+    if(/\b(lolth|spider queen|queen of spiders|lady lolth)\b/.test(text))type='lolth';
     else if(/\b(cute|adorable|sweet little)\b/.test(text))type='cute';
     else if(/\b(beautiful|beauty|handsome|lovely)\b/.test(text))type='compliment';
+    else if(/\b(matron|matron mother)\b/.test(text))type='matron';
+    else if(/\b(priestess|arach-tinilith|cleric)\b/.test(text))type='priestess';
+    else if(/\b(menzoberranzan|city of spiders|narbondel|tier breche)\b/.test(text))type='menzoberranzan';
+    else if(/\b(abyss|abyssal|demonweb pits)\b/.test(text))type='abyss';
+    else if(/\b(summon|summoned|summoning|ritual|brazier|incense)\b/.test(text))type='summoning';
+    else if(/\b(afraid|fear|frightened|scared|terror)\b/.test(text))type='fear';
+    else if(/\b(drow|dark elf|dark elves|iblith)\b/.test(text))type='drow';
+    else if(/\b(form|shape|shapechange|humanoid form|drow form|spider form|mist form|gaseous form|vapor form)\b/.test(text))type='form';
     else if(/\b(stupid|ugly|idiot|hate you|useless)\b/.test(text))type='insult';
     else if(/\b(certain|definitely|obviously|sure|must mean|i know)\b/.test(text))type='certainty';
     else if(/\b(wrong|corrected|mistake|changed my mind|you were right)\b/.test(text))type='correction';
