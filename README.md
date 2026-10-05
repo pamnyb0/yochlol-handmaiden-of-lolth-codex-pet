@@ -4,6 +4,10 @@
 
 I made this unofficial Codex desktop pet from two images I wanted to bring together: the malformed Yochlol of *Menzoberranzan* (1994), and the sculpted detail of my 2015 Roper miniature. I wanted the game’s grotesque silhouette to keep its weight and unease, while the physical figure informed the folds, irregular surface and pooled flesh. She stays heavy on the ground, with one small scarlet eye above an enormous red mouth and eight uneven pseudopods that move at their own pace.
 
+## Where this pet appears
+
+I packaged Yochlol here for Codex’s local custom-pet loader. Separately, I uploaded and selected a ChatGPT Work pet with the same artwork. The ChatGPT desktop app has floating Pet controls, so you may see her beside ChatGPT while it works. That does not mean ChatGPT is loading the files from this repository. The local package and the Work pet are separate records with separate update paths; “Codex pet” describes this repository’s install format, not an exclusive place where Yochlol can appear.
+
 ## In the lore, and in Menzoberranzan
 
 I began with the AD&D 2nd Edition Yochlol, a handmaiden of Lolth whose amorphous form has one eye and eight pseudopods. The [Complete Compendium](https://www.completecompendium.com/appendix/yochlolu/) gathers the source references for her lore and other forms. For this pet I stayed with the amorphous creature: dirty grey-brown, olive and muted ochre flesh, a small eye set high above an enormous vertical mouth, irregular ivory teeth and a broad mass pooled against the ground.
